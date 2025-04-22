@@ -5,7 +5,7 @@ namespace RPG.Combate.Tests;
 public class CombateSpecifications
 {
     [Fact]
-    public void Cuando_se_crea_un_personaje_debe_tener_1000_de_vida()
+    public void Cuando_se_crea_un_personaje_debe_tener_1000_de_vida_y_estado_vivo()
     {
         var combate = new Combate();
         Guid id = Guid.NewGuid();
@@ -13,6 +13,7 @@ public class CombateSpecifications
 
         Personaje personajeCreado = combate.ObtenerInformacionPersonaje();
         personajeCreado.Vida.Should().Be(1000);
+        personajeCreado.Estado.Should().Be(EstadoPersonaje.Vivo);
     }
 }
 
