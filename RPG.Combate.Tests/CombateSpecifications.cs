@@ -18,19 +18,20 @@ public class CombateSpecifications
 
 public class Combate
 {
-    private Personaje? personajeCreado; 
+    private Personaje? _personajeCreado;
+
     public void AgregarPersonaje()
     {
-        throw new NotImplementedException();
+        _personajeCreado = new Personaje(1000, EstadoPersonaje.Vivo);
     }
 
-    public Personaje ObtenerInformacionPersonaje()
-    {
-        throw new NotImplementedException();
-    }
+    public Personaje? ObtenerInformacionPersonaje() => _personajeCreado;
+    
 }
 
-public class Personaje
+public record Personaje(int Vida, EstadoPersonaje Estado);
+public enum EstadoPersonaje
 {
-    public object Vida { get; set; }
+    Vivo,
+    Muerto
 }
