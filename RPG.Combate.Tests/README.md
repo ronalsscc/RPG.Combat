@@ -1,5 +1,6 @@
 - [x] - Cuando se crea un personaje debe tener 1000 de vida y estar en estado Vivo
-- [] - Cuando se crean dos personajes deben tener 1000 de vida y estar en estado Vivo
-- [] - Cuando no hay más de un personaje no se puede inflingir daño 
-- [] - Un personaje no puede infligirse daño a si mismo
-- [] - Un personaje no puede inflingir daño a otro personaje si está muerto
+- [x] - Cuando se crean dos personajes deben tener 1000 de vida y estar en estado Vivo
+- [x] - Cuando no hay más de un personaje no se puede inflingir daño 
+- [x] - Un personaje no puede infligirse daño a si mismo
+- [x] - Cuando un personaje inflinge daño a otro debe dismunuir su vida en la cantidad indicada
+- [ ] - Un personaje no puede inflingir daño a otro personaje si está muerto
