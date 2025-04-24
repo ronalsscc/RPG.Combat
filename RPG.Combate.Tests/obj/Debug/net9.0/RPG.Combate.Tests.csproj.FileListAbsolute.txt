@@ -97,3 +97,4 @@ C:\Devops\Katas\RPG.Combate\RPG.Combate.Tests\obj\Debug\net9.0\refint\RPG.Combat
 C:\Devops\Katas\RPG.Combate\RPG.Combate.Tests\obj\Debug\net9.0\RPG.Combate.Tests.pdb
 C:\Devops\Katas\RPG.Combate\RPG.Combate.Tests\obj\Debug\net9.0\RPG.Combate.Tests.genruntimeconfig.cache
 C:\Devops\Katas\RPG.Combate\RPG.Combate.Tests\obj\Debug\net9.0\ref\RPG.Combate.Tests.dll
+C:\Devops\Katas\RPG.Combate\RPG.Combate.Tests\obj\Debug\net9.0\RPG.Combate.Tests.sourcelink.json

@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32e2a4d2-f4f1-4a97-846f-4783e272dd5f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG.Combate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG.Combate/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPG.Combate.Tests/Combate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPG.Combate.Tests/Personaje.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPG.Combate.Tests/CombateSpecifications.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RPG.Combate.Tests/CombateSpecifications.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPG.Combate.Tests/bin/Debug/net9.0/RPG.Combate.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RPG.Combate.Tests/bin/Debug/net9.0/RPG.Combate.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPG.Combate.Tests/bin/Debug/net9.0/RPG.Combate.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RPG.Combate.Tests/bin/Debug/net9.0/RPG.Combate.Tests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/RPG.Combate.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/RPG.Combate.Tests.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/RPG.Combate.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/RPG.Combate.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/RPG.Combate.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/RPG.Combate.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/RPG.Combate.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/RPG.Combate.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/RPG.Combate.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/RPG.Combate.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/RPG.Combate.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/RPG.Combate.Tests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/ref/RPG.Combate.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/ref/RPG.Combate.Tests.dll" afterDir="false" />
@@ -24,11 +27,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "RonalSCC"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ronalsscc/RPG.Combat.git",
+    "accountId": "bf05a53b-2c13-4aed-ae22-2ed939d8a435"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2w5YXdlKi5HXpCkSDCi6ryqlOoz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,6 +54,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -54,6 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1745332943833</updated>
       <workItem from="1745332945975" duration="2410000" />
+      <workItem from="1745448257955" duration="7026000" />
     </task>
     <servers />
   </component>
