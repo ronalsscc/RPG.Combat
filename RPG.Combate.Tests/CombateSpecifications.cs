@@ -72,6 +72,20 @@ public class CombateSpecifications : CombateTests
         var personajeAfectado = combate.ObtenerInformacionPersonaje(personajeAfectadoId);
         personajeAfectado.Vida.Should().Be(vidaRestante);
     }
+
+    [Fact]
+    public void Si_UnPersonajeInflingeElMismoDañoComoSaludTieneElAfectadoElPersonajeAfectado_Debe_Morir()
+    {
+        var combate = new Combate();
+        var personajeAgresorId = combate.AgregarPersonaje();
+        var personajeAfectadoId = combate.AgregarPersonaje();
+        
+        combate.InfligirDaño(personajeAgresorId, personajeAfectadoId, 1000);
+
+        var personajeAfectado = combate.ObtenerInformacionPersonaje(personajeAfectadoId);
+        personajeAfectado.Vida.Should().Be(0);
+        personajeAfectado.estado.Should().Be(EstadoPersonaje.Muerto);
+    }
 }
 
 public enum EstadoPersonaje
