@@ -84,7 +84,7 @@ public class CombateSpecifications : CombateTests
 
         var personajeAfectado = combate.ObtenerInformacionPersonaje(personajeAfectadoId);
         personajeAfectado.Vida.Should().Be(0);
-        personajeAfectado.estado.Should().Be(EstadoPersonaje.Muerto);
+        personajeAfectado.Estado.Should().Be(EstadoPersonaje.Muerto);
     }
 }
 
