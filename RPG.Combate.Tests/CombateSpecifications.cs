@@ -56,17 +56,21 @@ public class CombateSpecifications : CombateTests
         caller.Should().ThrowExactly<ArgumentException>().WithMessage("No existe el personaje");
     }
 
-    [Fact]
-    public void Si_UnPersonajeInflingeDañoAOtro_Debe_DisminuirSuVida()
+    [Theory]
+    [InlineData(100, 900)]
+    [InlineData(500, 500)]
+    [InlineData(300, 700)]
+    [InlineData(1000, 0)]
+    public void Si_UnPersonajeInflingeDañoAOtro_Debe_DisminuirSuVida(int daño, int vidaRestante)
     {
         var combate = new Combate();
         var personajeAgresorId = combate.AgregarPersonaje();
         var personajeAfectadoId = combate.AgregarPersonaje();
         
-        combate.InfligirDaño(personajeAgresorId, personajeAfectadoId, 100);
+        combate.InfligirDaño(personajeAgresorId, personajeAfectadoId, daño);
 
         var personajeAfectado = combate.ObtenerInformacionPersonaje(personajeAfectadoId);
-        personajeAfectado.Vida.Should().Be(900);
+        personajeAfectado.Vida.Should().Be(vidaRestante);
     }
 }
 
