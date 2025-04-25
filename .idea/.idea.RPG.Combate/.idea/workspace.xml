@@ -64,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1745332943833</updated>
       <workItem from="1745332945975" duration="2410000" />
-      <workItem from="1745448257955" duration="9236000" />
+      <workItem from="1745448257955" duration="9589000" />
     </task>
     <servers />
   </component>
@@ -81,13 +81,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/RPG.Combate.Tests/Personaje.cs</url>
-          <line>10</line>
+          <line>15</line>
           <properties documentPath="C:\Devops\Katas\RPG.Combate\RPG.Combate.Tests\Personaje.cs" containingFunctionPresentation="Method 'RecibirDaño'">
             <startOffsets>
-              <option value="308" />
+              <option value="475" />
             </startOffsets>
             <endOffsets>
-              <option value="321" />
+              <option value="488" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />

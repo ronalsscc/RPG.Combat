@@ -34,14 +34,14 @@ public class CombateSpecifications : CombateTests
     }
 
     [Fact]
-    public void Si_NoHayMasDeUnPersonaje_NoDebe_InflingirDaño_y_debe_arrojar_ArgumentException()
+    public void Si_UnPersonajeIntentarInflingirseDañoASiMismo_Debe_Arrojar_InvalidOperationException()
     {
         var combate = new Combate();
         var personajeId = combate.AgregarPersonaje();
 
-        var caller = () => combate.InfligirDaño(personajeId, Guid.CreateVersion7(),100);
+        var caller = () => combate.InfligirDaño(personajeId, personajeId,100);
 
-        caller.Should().ThrowExactly<ArgumentException>().WithMessage("Para inflingir daño deben existir al menos dos personajes.");
+        caller.Should().ThrowExactly<InvalidOperationException>().WithMessage("No puede inflingirse daño a si mismo");
     }
 
     [Fact]

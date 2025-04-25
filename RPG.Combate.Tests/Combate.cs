@@ -19,21 +19,18 @@ public class Combate
     
     public void InfligirDaño(Guid personajeAgresorId, Guid personajeAfectadoId, int daño)
     {
-        ExisteMasDeUnPersonaje();
+        EvitarAutoInflingirDaño(personajeAgresorId, personajeAfectadoId);
         ValidarExistenciaPersonaje(personajeAgresorId);
         ValidarExistenciaPersonaje(personajeAfectadoId);
         var afectado = ObtenerInformacionPersonaje(personajeAfectadoId);
         afectado.RecibirDaño(daño);
     }
 
-    private void ExisteMasDeUnPersonaje()
+    private static void EvitarAutoInflingirDaño(Guid personajeAgresorId, Guid personajeAfectadoId)
     {
-        if(_personajes.Count is 1 )
-            throw new ArgumentException("Para inflingir daño deben existir al menos dos personajes.");
+        if (personajeAgresorId == personajeAfectadoId)
+            throw new InvalidOperationException("No puede inflingirse daño a si mismo");
     }
-
-    public Personaje ObtenerInformacionPersonaje(Guid idPersonaje)
-        => _personajes.First(per => per.Id == idPersonaje);
 
     private bool ValidarExistenciaPersonaje(Guid idPersonaje)
     {
@@ -41,4 +38,8 @@ public class Combate
             throw new ArgumentException("No existe el personaje");
         return true;
     }
+
+    public Personaje ObtenerInformacionPersonaje(Guid idPersonaje)
+        => _personajes.First(per => per.Id == idPersonaje);
+
 }
