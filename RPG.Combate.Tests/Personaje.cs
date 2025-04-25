@@ -14,7 +14,7 @@ public record Personaje(Guid Id, int Vida, EstadoPersonaje Estado)
             throw new InvalidOperationException("No se puede inflingir daño a un personaje muerto.");
 
         Vida -= daño;
-        if (Vida == 0)
+        if (Vida <= 0)
             Estado = EstadoPersonaje.Muerto;
     }
 }

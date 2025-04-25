@@ -73,17 +73,21 @@ public class CombateSpecifications : CombateTests
         personajeAfectado.Vida.Should().Be(vidaRestante);
     }
 
-    [Fact]
-    public void Si_UnPersonajeInflingeElMismoDañoComoSaludTieneElAfectadoElPersonajeAfectado_Debe_Morir()
+    [Theory]
+    [InlineData(1000)]
+    [InlineData(2000)]
+    [InlineData(3000)]
+    [InlineData(4000)]
+    public void Si_UnPersonajeInflingeElMismoDañoComoSaludTieneElAfectadoElPersonajeAfectado_Debe_Morir(int daño)
     {
         var combate = new Combate();
         var personajeAgresorId = combate.AgregarPersonaje();
         var personajeAfectadoId = combate.AgregarPersonaje();
         
-        combate.InfligirDaño(personajeAgresorId, personajeAfectadoId, 1000);
+        combate.InfligirDaño(personajeAgresorId, personajeAfectadoId, daño);
 
         var personajeAfectado = combate.ObtenerInformacionPersonaje(personajeAfectadoId);
-        personajeAfectado.Vida.Should().Be(0);
+        personajeAfectado.Vida.Should().Be(1000 - daño);
         personajeAfectado.Estado.Should().Be(EstadoPersonaje.Muerto);
     }
 
