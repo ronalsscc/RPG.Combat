@@ -3,4 +3,5 @@
 - [x] - Cuando no hay más de un personaje no se puede inflingir daño 
 - [x] - Un personaje no puede infligirse daño a si mismo
 - [x] - Cuando un personaje inflinge daño a otro debe dismunuir su vida en la cantidad indicada
+- [x] - Si un personaje inflinge el mismo daño como salud tiene el afectado el personaje afectado debe morir 
 - [ ] - Un personaje no puede inflingir daño a otro personaje si está muerto

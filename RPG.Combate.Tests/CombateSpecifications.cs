@@ -86,6 +86,19 @@ public class CombateSpecifications : CombateTests
         personajeAfectado.Vida.Should().Be(0);
         personajeAfectado.Estado.Should().Be(EstadoPersonaje.Muerto);
     }
+
+    [Fact]
+    public void Si_UnPersonajeIntentaInflingirDañoAUnPersonajeYaMuerto_Debe_ArrojarInvalidOperationException()
+    {
+        var combate = new Combate();
+        var personajeAgresorId = combate.AgregarPersonaje();
+        var personajeAfectadoId = combate.AgregarPersonaje();
+        
+        var caller = () => combate.InfligirDaño(personajeAgresorId, personajeAfectadoId, 0);
+
+        caller.Should().ThrowExactly<InvalidOperationException>()
+            .WithMessage("No se puede inflingir daño a un personaje muerto.");
+    }
 }
 
 public enum EstadoPersonaje

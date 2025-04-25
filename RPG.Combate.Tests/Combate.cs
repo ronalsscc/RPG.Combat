@@ -13,7 +13,7 @@ public class Combate
     public Guid AgregarPersonaje()
     {
         var id = Guid.CreateVersion7();
-        _personajes.Add(new(id, 1000, EstadoPersonaje.Vivo));
+        _personajes.Add(new Personaje(id, 1000, EstadoPersonaje.Vivo));
         return id;
     }
     
