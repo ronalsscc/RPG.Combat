@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32e2a4d2-f4f1-4a97-846f-4783e272dd5f" name="Changes" comment="" />
+    <list default="true" id="32e2a4d2-f4f1-4a97-846f-4783e272dd5f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG.Combate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG.Combate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPG.Combate.Tests/CombateSpecifications.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RPG.Combate.Tests/CombateSpecifications.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPG.Combate.Tests/CombateTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RPG.Combate.Tests/CombateTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPG.Combate.Tests/bin/Debug/net9.0/RPG.Combate.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RPG.Combate.Tests/bin/Debug/net9.0/RPG.Combate.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPG.Combate.Tests/bin/Debug/net9.0/RPG.Combate.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RPG.Combate.Tests/bin/Debug/net9.0/RPG.Combate.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/RPG.Combate.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/RPG.Combate.Tests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/RPG.Combate.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/RPG.Combate.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/RPG.Combate.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/RPG.Combate.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/RPG.Combate.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/RPG.Combate.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/RPG.Combate.Tests.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/RPG.Combate.Tests.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/ref/RPG.Combate.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/ref/RPG.Combate.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/refint/RPG.Combate.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RPG.Combate.Tests/obj/Debug/net9.0/refint/RPG.Combate.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPG.Combate.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/RPG.Combate.sln.DotSettings.user" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +42,9 @@
     "accountId": "bf05a53b-2c13-4aed-ae22-2ed939d8a435"
   }
 }]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3f306492a8992ce3707d90e5a2eb6fca5f6b056d8e3d1c398226a368787514/InvalidOperationException.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -64,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1745332943833</updated>
       <workItem from="1745332945975" duration="2410000" />
-      <workItem from="1745448257955" duration="9589000" />
+      <workItem from="1745448257955" duration="10677000" />
     </task>
     <servers />
   </component>
@@ -91,6 +108,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/RPG.Combate.Tests/CombateSpecifications.cs</url>
+          <line>20</line>
+          <properties documentPath="C:\Devops\Katas\RPG.Combate\RPG.Combate.Tests\CombateSpecifications.cs" containingFunctionPresentation="Method 'Cuando_se_crean_dos_personajes_deben_tener_1000_de_vida_y_estar_en_estado_Vivo'">
+            <startOffsets>
+              <option value="609" />
+            </startOffsets>
+            <endOffsets>
+              <option value="676" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
