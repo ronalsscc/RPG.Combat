@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32e2a4d2-f4f1-4a97-846f-4783e272dd5f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/RPG.Combate.Tests/Personaje.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RPG.Combate.Tests/Personaje.cs" afterDir="false" />
-    </list>
+    <list default="true" id="32e2a4d2-f4f1-4a97-846f-4783e272dd5f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1745332943833</updated>
       <workItem from="1745332945975" duration="2410000" />
-      <workItem from="1745448257955" duration="8590000" />
+      <workItem from="1745448257955" duration="9236000" />
     </task>
     <servers />
   </component>

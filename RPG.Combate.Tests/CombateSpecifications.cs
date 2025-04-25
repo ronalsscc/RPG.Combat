@@ -93,8 +93,9 @@ public class CombateSpecifications : CombateTests
         var combate = new Combate();
         var personajeAgresorId = combate.AgregarPersonaje();
         var personajeAfectadoId = combate.AgregarPersonaje();
+        combate.InfligirDaño(personajeAgresorId, personajeAfectadoId, 1000);
         
-        var caller = () => combate.InfligirDaño(personajeAgresorId, personajeAfectadoId, 0);
+        var caller = () => combate.InfligirDaño(personajeAgresorId, personajeAfectadoId, 500);
 
         caller.Should().ThrowExactly<InvalidOperationException>()
             .WithMessage("No se puede inflingir daño a un personaje muerto.");
